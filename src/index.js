@@ -4,12 +4,12 @@ import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const sayHellowTo = (name) => {
-  return <h1>hellow {name}!</h1>;
+const sum = (a, b) => {
+  return <h2>{a + b}</h2>;
 };
 
 root.render(
   <React.StrictMode>
-    <span>{sayHellowTo("Giorgi")}</span>
+    <span>{5} + {7} = {sum(5, 7)}</span>
   </React.StrictMode>
 );
