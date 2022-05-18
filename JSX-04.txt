@@ -1,0 +1,4 @@
+What happens if the `name` variable contains a JSX expression instead of a string?
+
+
+We can embedd any valid javascript expression not only string or number, so it will work perfectly.
